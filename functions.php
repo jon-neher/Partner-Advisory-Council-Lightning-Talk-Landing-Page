@@ -13,6 +13,14 @@ function pac_lt_enqueue_assets() {
         null,
         false
     );
+
+    wp_enqueue_script(
+        'pac-rotate',
+        get_template_directory_uri() . '/mouse-rotate.js',
+        [],
+        null,
+        true
+    );
 }
 add_action( 'wp_enqueue_scripts', 'pac_lt_enqueue_assets' );
 add_theme_support( 'title-tag' );

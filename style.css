@@ -13,6 +13,10 @@ body {
 
 h1 {
   font-family: 'Bebas Neue', sans-serif;
+  /* Base style for 3D heading */
+  display: inline-block;
+  transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+  transition: transform 0.2s ease-out;
 }
 
 h2, h3, h4, h5, h6 {
