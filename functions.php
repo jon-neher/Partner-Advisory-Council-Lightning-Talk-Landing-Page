@@ -2,7 +2,7 @@
 function pac_lt_enqueue_assets() {
     wp_enqueue_style(
         'pac-fonts',
-        'https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Public+Sans:wght@400;500;700;900',
+        'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@400;500;600;700&family=Open+Sans:wght@400&display=swap',
         [],
         null
     );
