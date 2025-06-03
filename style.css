@@ -1,0 +1,21 @@
+/*
+Theme Name: Partner Advisory Council Lightning Talks
+Description: Landing page theme for PAC Lightning Talk events.
+Author: Vendasta
+Version: 1.0
+*/
+
+/* Base typography */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
