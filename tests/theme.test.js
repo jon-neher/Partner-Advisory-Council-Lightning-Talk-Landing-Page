@@ -17,3 +17,8 @@ test('functions.php enqueues pac-tailwind script', () => {
   const content = fs.readFileSync(path.join(process.cwd(), 'functions.php'), 'utf8');
   assert.match(content, /wp_enqueue_script\([^)]*'pac-tailwind'/);
 });
+
+test('landing page template file exists', () => {
+  const exists = fs.existsSync(path.join(process.cwd(), 'landing-page-template.html'));
+  assert.ok(exists);
+});
