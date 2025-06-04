@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="@container">
   <div class="@[480px]:p-4">
-    <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuABhcYnnuc7Zfv3-vMAxZnr6hIt7YmYZbE1c6tK7scixu9yTzEo9Bca-P3WEpZkL1ebH2TALM7YVsNzXFFYi5QxtvljV2---tvktw6Rb2AzYr9Mf-38NsBTISZKCVzHMdcbMb5Mwc8MTBKW_TCnnvr7Gb-l1iA3I81mIs3N5TWsy8FCtYC0kkdkv5MiDjZBB-KsvK-Qm6SHP7WBoOZSUHIlh-JXI0stxPp4L19WT2fCZVhauhLpF62CycWEBKEFxz1sDAf3bAKHenMe");'>
+    <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("<?php echo get_template_directory_uri(); ?>/1.png");'>
       <div class="flex flex-col gap-2 text-center">
         <h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
           Partner Advisory Council Lightning Talks
