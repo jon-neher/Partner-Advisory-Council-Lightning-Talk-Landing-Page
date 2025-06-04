@@ -71,4 +71,28 @@
     <p class="text-[#a7aeae] text-sm font-normal leading-normal pb-2"></p>
   </details>
 </div>
+<div
+  id="webchat-container"
+  class="mx-auto my-6 max-w-[480px] rounded-xl border-2 border-dashed border-[#454a4a] bg-[#141515] p-4 shadow-lg"
+></div>
+<script
+  src="https://cdn.apigateway.co/webchat-client..prod/sdk.js"
+  data-widget-id="1f23333f-3b05-11f0-acd1-baaf279668c2"
+  defer
+></script>
+<script defer>
+  document.addEventListener('DOMContentLoaded', function () {
+    const container = document.getElementById('webchat-container');
+    const interval = setInterval(() => {
+      const chatEl = document.querySelector('body > div[id*="webchat"], body > div[class*="webchat"]');
+      if (chatEl && container) {
+        chatEl.style.position = 'static';
+        chatEl.style.bottom = 'auto';
+        chatEl.style.right = 'auto';
+        container.appendChild(chatEl);
+        clearInterval(interval);
+      }
+    }, 300);
+  });
+</script>
 <?php get_footer(); ?>
